@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from "./App.css";
+import styles from "./App.module.scss";
 import Header from './components/Header';
 import TodoList from './components/TodoList';
 import SubmitForm from './components/SubmitForm';
@@ -22,7 +22,7 @@ class App extends Component {
 
   render() {
     return (
-      <div class="container">
+      <div className={styles.container}>
         <Header todos={this.state.tasks.length} />
         <SubmitForm onFormSubmit={this.handleSubmit} />
         <TodoList 
