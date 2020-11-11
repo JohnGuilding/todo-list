@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <>
-        <h2>We have {this.props.todos} todos left to todo</h2>
+        <h2 className={styles.header}>JOHN'S TODO LIST</h2>
       </>
     );
   }

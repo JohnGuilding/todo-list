@@ -1,5 +1,15 @@
 .todo {
+    width: 100%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    background: white;
+
+    button {
+        background: linear-gradient(to left, #FF881B, #F650A0);
+        border-radius: 15px;
+    }
 }

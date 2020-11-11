@@ -1,8 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #FF881B, #F650A0);
+}
+
 .container {
   width: 40%;
   height: 70vh;
   margin: auto;
-  border: 2px solid black;
   border-radius: 5px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
