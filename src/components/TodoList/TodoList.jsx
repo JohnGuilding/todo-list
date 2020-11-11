@@ -7,7 +7,14 @@ class TodoList extends Component {
     return (
       <>
         {this.props.tasks.map((todo, index) => {
-          return <Todo content={todo} key={index} id={index} />
+          return (
+            <Todo 
+              content={todo} 
+              key={index} 
+              id={index} 
+              onDelete={this.props.onDelete} 
+            />
+          )
         })}
       </>
     );
