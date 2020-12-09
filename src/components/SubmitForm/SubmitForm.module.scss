@@ -8,9 +8,13 @@
     input {
         width: 80%;
         height: 50px;
-        padding: 5px;
+        padding: 10px;
         border-radius: 15px;
         border-style: none;
+
+        &:focus {
+            outline: none;
+        }
     }
 
     button {
@@ -19,5 +23,9 @@
         border-radius: 15px;
         border-style: none;
         cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
     }
 }
